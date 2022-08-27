@@ -164,14 +164,14 @@ git push --force heroku your_branch:master
 ```
 
 10. Heroku will automatically build your project. The website will be published to Heroku, and the mobile app will be
-available on [Expo.io].
+available on [Expo.dev].
 
 ## Publishing a Mobile App
 
 1. Run the following command to publish your mobile app:
 
 ```bash
-yarn expo publish
+npx expo publish
 ```
 
 ## Building a Standalone Mobile App for Google Play or App Store
@@ -179,16 +179,16 @@ yarn expo publish
 1. Run the command below to build a signed `.apk` for Android:
 
 ```bash
-yarn expo ba
+npx expo ba
 ```
 
 You need to run the command below to build a signed `.iap` for iOS:
 
 ```bash
-yarn expo bi
+npx expo bi
 ```
 
-3. Run `yarn expo bs` to get the status and links for signed standalone mobile apps when the build finishes.
+3. Run `npx expo bs` to get the status and links for signed standalone mobile apps when the build finishes.
 
 For more details refer to Building Standalone Apps in [the Expo documentation].
 
@@ -196,8 +196,8 @@ For more details refer to Building Standalone Apps in [the Expo documentation].
 [heroku cli]: https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 [deploying a node.js app]: https://devcenter.heroku.com/articles/getting-started-with-nodejs
 [heroku dashboard]: https://dashboard.heroku.com/apps
-[expo]: https://expo.io
+[expo]: https://expo.dev
 [ethereal]: https://ethereal.email/
 [the stripe module]: /docs/modules/Stripe%20Subscription.md
-[expo.io]: https://expo.io
-[the expo documentation]: https://docs.expo.io/versions/latest/
+[expo.dev]: https://expo.dev
+[the expo documentation]: https://docs.expo.dev/

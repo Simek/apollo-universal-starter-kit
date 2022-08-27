@@ -146,10 +146,10 @@ lines where issues were found) will be shown in the console.
 
 [lerna]: https://lernajs.io/
 [cli guide]: /docs/tools/CLI.md
-[`expo`]: https://docs.expo.io/versions/latest/workflow/expo-cli
+[`expo`]: https://docs.expo.dev/workflow/expo-cli
 [webpack]: https://webpack.js.org/
 [haul cli]: https://github.com/callstack/haul
 [metro bundler]: https://facebook.github.io/metro/
-[expo cli documentation]: https://docs.expo.io/versions/latest/workflow/expo-cli
+[expo cli documentation]: https://docs.expo.dev/workflow/expo-cli
 [esLint]: https://eslint.org/
 [lint-staged]: https://www.npmjs.com/package/lint-staged
